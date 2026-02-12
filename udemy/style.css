@@ -1,13 +1,19 @@
+
+
+
+/* Global Reset & Base Styles */
+
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-
     font-family: "Gabarito", sans-serif;
-
 }
+
+
+/* Navigation Bar */
 
 .nav-bar {
     display: flex;
@@ -16,9 +22,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-width: 0px 0px 1px 0px;
-    border-color: black;
+    border-width: 0 0 1px 0;
     border-style: solid;
+    border-color: black;
 }
 
 .nav-bar__s1 {
@@ -26,12 +32,15 @@ body {
     gap: 20px;
 }
 
+.nav-bar__s1-logo {
+    height: 50px;
+}
+
 .nav-bar__s2 {
     width: 60%;
     display: flex;
     justify-content: center;
 }
-
 
 .nav-bar__s2-form {
     display: flex;
@@ -43,22 +52,6 @@ body {
     width: 100%;
 }
 
-
-.nav-bar__s3 {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.nav-bar__s1-logo {
-    height: 50px;
-}
-
-.nav-bar__s3-icons {
-    width: 24px;
-    height: 24px;
-}
-
 .nav-bar__s2-form input {
     border: none;
     width: 100%;
@@ -68,6 +61,20 @@ body {
 .nav-bar__s2-form input:focus {
     outline: none;
 }
+
+.nav-bar__s3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-bar__s3-icons {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* Categories Section */
 
 .categories {
     padding: 10px;
@@ -83,7 +90,7 @@ body {
 }
 
 .categories__item {
-    padding: 15px 25px 15px 25px;
+    padding: 15px 25px;
     background-color: blueviolet;
     color: white;
     border-radius: 999px;
@@ -91,19 +98,23 @@ body {
     cursor: pointer;
 }
 
-.categories__item:hover, .hero-section__content-button:hover {
+.categories__item:hover,
+.hero-section__content-button:hover {
     background-color: pink;
-    color: rgb(0, 0, 0);
+    color: black;
 }
+
+
+/* Hero Section */
 
 .hero-section {
     display: flex;
-    height: 550px;
-    overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     position: relative;
+    height: 550px;
+    overflow: hidden;
 }
 
 .hero-section__image {
@@ -113,22 +124,21 @@ body {
 }
 
 .hero-section__content {
-    padding: 40px;
-    margin: 20px;
-    background-color: rgb(255, 255, 255);
     position: absolute;
     left: 10%;
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
 }
 
 .hero-section__content h1 {
     margin-bottom: 10px;
 }
 
-
 .hero-section__content-button {
-    padding: 15px 20px 15px 20px;
-    color: white;
+    padding: 15px 20px;
     background-color: blueviolet;
+    color: white;
     border: none;
     border-radius: 10px;
     margin-top: 20px;
@@ -136,33 +146,10 @@ body {
 }
 
 
+/* Courses Sections */
 
 .courses {
     padding: 20px;
-}
-
-.courses__item {
-    width: 350px;
-}
-
-.courses__item h3 {
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 10px;
-}
-
-.courses__item p {
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 5px;
-}
-
-
-
-.courses__img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
 }
 
 .courses__header {
@@ -182,13 +169,40 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* justify-content: space-around; */
     gap: 40px;
 }
 
+.courses__item {
+    width: 350px;
+}
+
+.courses__item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.courses__item p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.courses__img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Topics Section */
 
 .topics {
     padding: 20px;
+}
+
+.topics__title {
+    font-size: 32px;
 }
 
 .topics_list {
@@ -200,10 +214,6 @@ body {
     list-style: none;
 }
 
-.topics__title {
-    font-size: 32px;
-}
-
 .topics__button {
     font-size: 18px;
     background-color: white;
@@ -213,19 +223,21 @@ body {
     border: 1px solid gray;
 }
 
+
+/* Footer Section */
+
 .footer {
     background-color: black;
-    font-size: 16px;
     color: white;
+    font-size: 16px;
     padding: 20px;
 }
 
 .footer__category {
-    width: 100%;
     display: flex;
     gap: 10px;
     margin-bottom: 40px;
-
+    width: 100%;
 }
 
 .footer__category ul {
