@@ -2,33 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>EMC Projects</title>
+    <title>EMC Projects Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
 
-    <h1>EMC Practice Projects</h1>
-    <p>Collection of projects built while learning.</p>
+    <header class="hero">
+        <h1>EMC Practice Projects</h1>
+        <p>Frontend development exercises and mini projects</p>
+    </header>
 
-    <ul>
-        <li>
-            <a href="./Portfolio/index.html">
-                Portfolio Project
-            </a>
-        </li>
+    <main class="projects-container">
 
-        <li>
-            <a href="./Reestar_css/index.html">
-                Reestar CSS Project
-            </a>
-        </li>
+        <a href="./Portfolio/" class="project-card">
+            <h2>Portfolio Project</h2>
+            <p>Basic portfolio website with forms and layout styling.</p>
+        </a>
 
-        <li>
-            <a href="./Udemy/index.html">
-                Udemy Landing Page
-            </a>
-        </li>
-    </ul>
+        <a href="./Reestar_css/" class="project-card">
+            <h2>Reestar CSS</h2>
+            <p>Restaurant landing page built using CSS fundamentals.</p>
+        </a>
+
+        <a href="./Udemy/" class="project-card">
+            <h2>Udemy Landing Page</h2>
+            <p>Udemy inspired UI recreation with layout practice.</p>
+        </a>
+
+        <a href="./FSWD/" class="project-card">
+            <h2>FSWD Exercises</h2>
+            <p>HTML and CSS foundational exercises and experiments.</p>
+        </a>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Mohamed Asmaan | EMC Learning Repository</p>
+    </footer>
 
 </body>
 </html>
