@@ -223,6 +223,13 @@ body {
     border: 1px solid gray;
 }
 
+.topics__button:hover {
+
+    background-color: gray;
+    cursor: pointer;
+ 
+}
+
 
 /* Footer Section */
 
