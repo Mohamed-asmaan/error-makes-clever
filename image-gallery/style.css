@@ -5,12 +5,30 @@
 
 body {
     font-family: "Italianno", cursive;
+    background-color:  #f2eee6;
+
     
 }
 
-.body {
-    background-color:  #f2eee6;
+.head-button {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
 }
+
+.head-button:hover {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition-duration: 300ms;
+
+}
+
 
 .gallery {
     color: #2f2f2f;
