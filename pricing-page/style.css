@@ -5,7 +5,7 @@
 }
 
 .wrap {
-    padding: 100px;
+    padding: 100px 20px 100px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
