@@ -42,34 +42,78 @@
         rel="stylesheet">
 </head>
 
-
 <body>
+
+    <!-- Simple header section (can later become navigation if needed) -->
     <header>
         <button class="head-button">Header</button>
     </header>
 
     <main>
 
+        <!-- Gallery section that contains title + images -->
         <section class="gallery">
+
+            <!-- Wrapper used for layout/alignment of the heading -->
             <div class="gallery-content">
-                <h1>Italy Gallery </h1>
+                <!-- Main page heading (only one h1 per page) -->
+                <h1>Italy Gallery</h1>
             </div>
+
+            <!-- Image container (Flexbox/Grid applied in CSS here) -->
             <div class="gallery-imgs">
-                <img src="./img/img-1.jpg" alt="Statue of a medieval knight in armor against a clear blue sky in Italy." title="Statue of a medieval knight in armor against a clear blue sky in Italy." loading="lazy">
-                <img src="./img/img-2.jpg" alt="The Colosseum in Rome with sunlight streaming through its arches at sunrise." title="The Colosseum in Rome with sunlight streaming through its arches at sunrise." loading="lazy">
-                <img src="./img/img-3.jpg" alt="Milan Cathedral (Duomo di Milano) with its intricate Gothic façade." title="Milan Cathedral (Duomo di Milano) with its intricate Gothic façade." loading="lazy">
-                <img src="./img/img-4.jpg" alt="Colorful canal street in Venice with a small bridge and boats." title="Colorful canal street in Venice with a small bridge and boats." loading="lazy">
-                <img src="./img/img-5.jpg" alt="Elderly man reading near classical columns in an Italian historic building." title="Elderly man reading near classical columns in an Italian historic building." loading="lazy">
-                <img src="./img/img-6.jpg" alt="Black and white sculpture detail from a historic Italian fountain." title="Black and white sculpture detail from a historic Italian fountain." loading="lazy">
-                <img src="./img/img-7.jpg" alt="St. Peter’s Basilica in Vatican City illuminated at night." title="St. Peter’s Basilica in Vatican City illuminated at night." loading="lazy">
-                <img src="./img/img-8.jpg" alt="Blue Vespa parked in a narrow stone street in an Italian town." title="Blue Vespa parked in a narrow stone street in an Italian town." loading="lazy">
+
+                <!-- Each image includes:
+                     - descriptive alt text (for accessibility)
+                     - title (tooltip on hover)
+                     - loading="lazy" (performance optimization) -->
+                <img src="./img/img-1.jpg"
+                     alt="Statue of a medieval knight in armor against a clear blue sky in Italy."
+                     title="Statue of a medieval knight in armor against a clear blue sky in Italy."
+                     loading="lazy">
+
+                <img src="./img/img-2.jpg"
+                     alt="The Colosseum in Rome with sunlight streaming through its arches at sunrise."
+                     title="The Colosseum in Rome with sunlight streaming through its arches at sunrise."
+                     loading="lazy">
+
+                <img src="./img/img-3.jpg"
+                     alt="Milan Cathedral (Duomo di Milano) with its intricate Gothic façade."
+                     title="Milan Cathedral (Duomo di Milano) with its intricate Gothic façade."
+                     loading="lazy">
+
+                <img src="./img/img-4.jpg"
+                     alt="Colorful canal street in Venice with a small bridge and boats."
+                     title="Colorful canal street in Venice with a small bridge and boats."
+                     loading="lazy">
+
+                <img src="./img/img-5.jpg"
+                     alt="Elderly man reading near classical columns in an Italian historic building."
+                     title="Elderly man reading near classical columns in an Italian historic building."
+                     loading="lazy">
+
+                <img src="./img/img-6.jpg"
+                     alt="Black and white sculpture detail from a historic Italian fountain."
+                     title="Black and white sculpture detail from a historic Italian fountain."
+                     loading="lazy">
+
+                <img src="./img/img-7.jpg"
+                     alt="St. Peter’s Basilica in Vatican City illuminated at night."
+                     title="St. Peter’s Basilica in Vatican City illuminated at night."
+                     loading="lazy">
+
+                <img src="./img/img-8.jpg"
+                     alt="Blue Vespa parked in a narrow stone street in an Italian town."
+                     title="Blue Vespa parked in a narrow stone street in an Italian town."
+                     loading="lazy">
+
             </div>
 
         </section>
 
-
     </main>
 
 </body>
+
 
 </html>

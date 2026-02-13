@@ -2,16 +2,23 @@
 <html lang="en">
 
 <head>
+    <!-- Basic Setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Title & Description -->
+    <title>Subscription Pricing Plans | CSS Layout Project</title>
+    <meta name="description" content="A responsive subscription pricing layout built using HTML and CSS, demonstrating structured components and clean UI design.">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Italiana&family=Italianno&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Italiana&family=Italianno&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
 
@@ -19,11 +26,12 @@
         <header class="pricing-title">
             <h1>Choose your Subscription Today</h1>
         </header>
-        <main class="pricing-div">
-            <article class="pricing-div__card">
-                <h2>0/-</h2>
-                <h3>Free</h3>
-                <div>
+
+        <main>
+            <section class="pricing-div">
+                <article class="pricing-div__card">
+                    <h2>0/-</h2>
+                    <h3>Free</h3>
                     <ul class="pricing-div__card-content">
                         <li><svg xmlns="http://www.w3.org/2000/svg" version="1.1"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" x="0" y="0"
@@ -107,12 +115,10 @@
                             </svg>
                             No Upload Access</li>
                     </ul>
-                </div>
-            </article>
-            <article class="pricing-div__card">
-                <h2>499/-</h2>
-                <h3>Standard</h3>
-                <div>
+                </article>
+                <article class="pricing-div__card">
+                    <h2>499/-</h2>
+                    <h3>Standard</h3>
                     <ul class="pricing-div__card-content">
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
@@ -207,12 +213,10 @@
                             Priority Support
                         </li>
                     </ul>
-                </div>
-            </article>
-            <article class="pricing-div__card">
-                <h2>999/-</h2>
-                <h3>Premium</h3>
-                <div>
+                </article>
+                <article class="pricing-div__card">
+                    <h2>999/-</h2>
+                    <h3>Premium</h3>
                     <ul class="pricing-div__card-content">
                         <li><svg xmlns="http://www.w3.org/2000/svg" version="1.1"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" x="0" y="0"
@@ -293,8 +297,8 @@
                                 </g>
                             </svg>Exclusive Premium Content</li>
                     </ul>
-                </div>
-            </article>
+                </article>
+            </section>
 
         </main>
     </div>
